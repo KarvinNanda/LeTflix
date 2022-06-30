@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="res.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subcription</title>
+    <!-- <link rel="stylesheet" href="./CSS/sub.css"> -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/validate.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="nav_bar">
+           <div class="nav_bar_tittle">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="nav_bar_tittle">
+                <a href="drama.html">Dramas</a>
+            </div>
+           <nav>
+            <div class="nav_bar_tittle" id="dropdown">
+                 <a href="">Plans</a>
+                 <div id="dropdownkonten">
+                     <a href="coin.html">Coins</a> <br> 
+                     <a href="plan.html">Packets</a>
+                 </div>
+            </div>
+            </nav>
+            <div class="nav_bar_tittle">
+                <a href="about.html">About</a>
+            </div>
+            <div class="nav_bar_tittle">
+                <a href="subcription.html">Subscription</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        
+        <h1>Input Your Information</h1>
+    
+    <form name="inForm" onsubmit="validasi()" method="post">
+        <p>Email</p>
+        <input type="text" id="email" placeholder="Enter Your Email">
+
+        <p>Password</p>
+        <input type="Password" name="pass" placeholder="Enter Password">
+
+        <p>Gender</p>
+        <input type="text" id="gender" placeholder="Male/Female">
+
+        <p>Package</p>
+                <select>
+                    <option value="A" >Silver Package</option>
+                    <option value="B" >Gold Package</option>
+                    <option value="C" >Diamond Package</option>
+                </select>
+                <br>
+        <input type="checkbox" id="agreement">
+        <label>I Agree</label>
+        
+        
+        <input type="reset" value="Reset">
+        <input type="submit" value="Login">
+        
+                
+        
+    </form>
+
+    </div>
+
+ 
+</body>
+</html>
